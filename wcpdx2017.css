@@ -106,15 +106,25 @@ div#wp-custom-header:before {
 
 /* Jamie S - main menu styling */
 
-.main-navigation a {
-	text-transform: uppercase;
-	font-family: 'Roboto Slab';
-    font-weight: 400 !important;
-    color: #fff;
+.navigation-top {
+    border-color: #211e1f !important;
+    background-color: #211e1f !important;
 }
 
-ul#top-menu {
-	text-align: right;
+ .main-navigation a {
+ 	text-transform: uppercase;
+ 	font-family: 'Roboto Slab';
+     font-weight: 400 !important;
+    color: #fff !important;
+}
+ 
+ ul#top-menu {
+ 	text-align: right;
+	background-color: #211e1f;
+}
+
+.menu-main-container {
+	margin-right: 20px;
 }
 
 
