@@ -87,6 +87,18 @@ div#wp-custom-header:before {
     z-index: 1;
 }
 
+@media screen and (max-width: 564px) {
+	div#wp-custom-header:before {
+	    bottom: 25px;
+	    top: initial;
+	    font-size: 8px;
+	    background-color: transparent;
+	    color: #fff;
+	    opacity: 1;
+	    font-weight: 700;
+	}
+}
+
 /* Faddah W. - End styling Front Page. */
 
 
@@ -133,18 +145,29 @@ div#wp-custom-header:before {
 .home .site-branding {
     top: 0;
     background-color: #211e1f;
-    left: 0 !important;
-    height: initial;
     max-height: 330px;
-    display: inline-block !important;
     width: initial !important;
-    margin-bottom: 0 !important;
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 48em) {
+	.home .site-branding {
+		height: auto !important;
+	    max-height: 100%;
+	    padding: 0;
+	    display: inline-block !important;
+	}
 }
 
 .home .site-branding .wrap {
     padding: 0 65px 53px 65px;
     margin: 0;
+}
+
+@media screen and (max-width: 48em) {
+	.home .site-branding .wrap {
+	    padding: 30px 40px;
+	}
 }
 
 .home .site-branding .wrap a {
@@ -161,9 +184,21 @@ div#wp-custom-header:before {
     max-height: initial;
 }
 
+@media screen and (max-width: 734px) {
+	.home .site-branding .wrap a img {
+		max-width: 160px;
+	}
+}
+
 .home .site-branding .wrap .site-branding-text {
     padding-top: 30px;
     text-align: center;
+}
+
+@media screen and (max-width: 734px) {
+	.home .site-branding .wrap .site-branding-text {
+		padding-top: 20px;
+	}
 }
 
 .home .site-branding .wrap .site-branding-text h1 {
@@ -179,6 +214,12 @@ div#wp-custom-header:before {
     font-style: normal;
     color: #fff;
     opacity: 1;
+}
+
+@media screen and (max-width: 734px) {
+	.home .site-branding .wrap .site-branding-text h1, .home .site-branding .wrap .site-branding-text p.site-description {
+	    font-size: 16px;
+	}
 }
 
 
