@@ -117,6 +117,61 @@ ul#top-menu {
 	text-align: right;
 }
 
+
+/* Jamie S - Positioning site branding box on homepage */
+
+.home .site-branding {
+    top: 0;
+    background-color: #211e1f;
+    left: 0 !important;
+    height: initial;
+    max-height: 330px;
+    display: inline-block !important;
+    width: initial !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.home .site-branding .wrap {
+    padding: 0 65px 53px 65px;
+    margin: 0;
+}
+
+.home .site-branding .wrap a {
+    padding: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.home .site-branding .wrap a img {
+    width: 100%;
+    max-width: 213px;
+    height: auto;
+    max-height: initial;
+}
+
+.home .site-branding .wrap .site-branding-text {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.home .site-branding .wrap .site-branding-text h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home .site-branding .wrap .site-branding-text p.site-description {
+    font-size: 18px;
+    font-family: 'Roboto Slab', arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+
 /* Jamie S - background styles */
 
 .pattern {
