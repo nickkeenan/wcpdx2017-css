@@ -39,14 +39,52 @@ div.site-branding {
 }
 
 article#panel1 {
-  background-color: oldlace;
   color: #000;
+}
+
+/* Jamie S - Removing borders on homepage modules */
+
+article#panel1, article#panel2 {
+  border: none;
 }
 
 article#panel1 h2.entry-title,
 article#panel1 li,
 article#panel1 a {
   color: #000;
+}
+
+/* Jamie S - Angles on module boxes */
+
+.home article#panel1 {
+    background-color: white;
+    background-image: url('https://2017.portland.wordcamp.org/files/2017/06/crosspattern.png');
+    -ms-transform: skew(0deg, -2deg);
+    -webkit-transform: skew(0deg, -2deg);
+    transform: skew(0deg, -2deg);
+    
+}
+
+.home article#panel1 .panel-content {
+	-ms-transform: skew(0deg, 2deg);
+    -webkit-transform: skew(0deg, 2deg);
+    transform: skew(0deg, 2deg);
+}
+
+/* Jamie S - Attribution text */
+
+div#wp-custom-header:before {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    content: "Image courtesy of the Portland Street Art Alliance";
+    color: white;
+    font-size: 9px;
+    background-color: #333;
+    padding: 5px 20px;
+    letter-spacing: .03em;
+    opacity: .7;
+    z-index: 1;
 }
 
 /* Faddah W. - End styling Front Page. */
@@ -66,8 +104,24 @@ article#panel1 a {
 	color: #fff;
 }
 
+/* Jamie S - main menu styling */
+
 .main-navigation a {
 	text-transform: uppercase;
+	font-family: 'Roboto Slab';
+    font-weight: 400 !important;
+    color: #fff;
+}
+
+ul#top-menu {
+	text-align: right;
+}
+
+/* Jamie S - background styles */
+
+.pattern {
+	background-color: transparent;
+	background-image: url('https://2017.portland.wordcamp.org/files/2017/06/crosspattern.png');
 }
 
 /* Nick K - Light & Dark Link styling for button links (a.pushbutton) */
@@ -170,6 +224,6 @@ img.alignnone.size-medium.wp-image-450 {
 		margin-bottom: 0 !important;
 		margin-top: 72px;
 	}
-}_	�/*
+}
 
 /* Doug Y. - End of CSS fixes for header, accounts for admin bar & extra gray space below the header */
