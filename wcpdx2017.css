@@ -378,3 +378,36 @@ img.alignnone.size-medium.wp-image-450 {
 	display:block;
 }
 /* End Nick K Sponsor List */
+
+/* Nick K Social Media */
+.tggr-media-items {
+  align-items: stretch;
+}
+
+.colors-dark .tggr-item-content {
+  color: black;
+}
+
+.colors-dark .tggr-item-content a, .colors-dark .tggr-timestamp {
+  color: #999;
+}
+
+.colors-dark .tggr-item-content a:hover, .colors-dark .tggr-timestamp {
+  color: #000;
+}
+
+.tggr-author-name {
+  font-size: 1em;
+}
+
+.tggr-author-username {
+  margin-left: 67px;
+  margin-bottom: 10px;
+}
+
+#content .tggr-author-profile img, .tggr-author-profile img {
+  margin-right: 18px;
+}
+
+
+/* END Nick K Social Media */
