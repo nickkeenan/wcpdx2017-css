@@ -62,7 +62,7 @@ article#panel1 a {
     -ms-transform: skew(0deg, -2deg);
     -webkit-transform: skew(0deg, -2deg);
     transform: skew(0deg, -2deg);
-    
+
 }
 
 .home article#panel1 .panel-content {
@@ -129,7 +129,7 @@ div#wp-custom-header:before {
      font-weight: 400 !important;
     color: #fff !important;
 }
- 
+
  ul#top-menu {
  	text-align: right;
 	background-color: #211e1f;
@@ -150,10 +150,11 @@ div#wp-custom-header:before {
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 734px) {
 	.home .site-branding {
 		height: auto !important;
 	    max-height: 100%;
+      width: 100% !important;
 	    padding: 0;
 	    display: inline-block !important;
 	}
@@ -164,7 +165,7 @@ div#wp-custom-header:before {
     margin: 0;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 734px) {
 	.home .site-branding .wrap {
 	    padding: 30px 40px;
 	}
@@ -198,6 +199,7 @@ div#wp-custom-header:before {
 @media screen and (max-width: 734px) {
 	.home .site-branding .wrap .site-branding-text {
 		padding-top: 20px;
+    width: 100%;
 	}
 }
 
@@ -220,7 +222,25 @@ div#wp-custom-header:before {
 	.home .site-branding .wrap .site-branding-text h1, .home .site-branding .wrap .site-branding-text p.site-description {
 	    font-size: 16px;
 	}
+
+  /* Mobile Header */
+  .home header#branding {
+    padding: 0;
+
+  }
+
+  .home header#branding .site-branding {
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+  }
+
+  .home header#branding .site-branding h1#site-title, .home header#branding .site-branding h1#site-title a, .home header#branding .site-branding h2#site-description, .home header#branding .site-branding h1#site-title a:hover{
+    color: white;
+    text-align: center;
+  }
 }
+
+
 
 
 /* Jamie S - background styles */
@@ -281,6 +301,13 @@ a.pushbutton:hover {
 	align-items: center;
 }
 
+/* Nick K adjustment - make instagram consistent size on desktop*/
+#front-page-soc-media-icons img {
+  max-width: 44px;
+}
+
+
+
 img.alignnone.size-full.wp-image-452,
 img.alignnone.size-full.wp-image-453,
 img.alignnone.size-full.wp-image-449,
@@ -333,3 +360,21 @@ img.alignnone.size-medium.wp-image-450 {
 }
 
 /* Doug Y. - End of CSS fixes for header, accounts for admin bar & extra gray space below the header */
+
+
+/* Nick K - Sponsor List */
+.wcorg-sponsors h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 4px double #CCC;
+  margin-top:60px;
+}
+
+.wcorg-sponsor-description img {
+	max-width: 400px;
+	margin: 0 auto 20px;
+	display:block;
+}
+/* End Nick K Sponsor List */
