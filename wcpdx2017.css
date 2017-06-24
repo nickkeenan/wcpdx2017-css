@@ -421,8 +421,10 @@ body.mobile-theme .main-navigation a {
 
 body.mobile-theme .menu-search {
   background: #211e1f;
+  box-shadow: none;
 }
 
 body.mobile-theme .search-form #s {
   background: #5a575a;
+  border: 1px solid #211e1f;
 }
