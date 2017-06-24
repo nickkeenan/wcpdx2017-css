@@ -39,11 +39,11 @@ div.site-branding {
 }
 
 #post-2 > div > div.wrap {
-	margin-top: -10%;
+	margin-top: -8%;
 }
 
-article#panel1 > div.panel-conttent > div.wrap,
-article#panel2 > div.panel-conttent > div.wrap {
+article#panel1 > div.panel-content > div.wrap,
+article#panel2 > div.panel-content > div.wrap {
 	margin-top: -3%;
 }
 
