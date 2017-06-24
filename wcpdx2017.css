@@ -38,9 +38,20 @@ div.site-branding {
   margin-bottom: 5px;
 }
 
+#post-2 > div > div.wrap {
+	margin-top: -8%;
+}
+
+article#panel1 > div.panel-content > div.wrap,
+article#panel2 > div.panel-content > div.wrap {
+	margin-top: -3%;
+}
+
 article#panel1 {
   color: #000;
 }
+
+/* Faddah W. - End styling changes Front Page. */
 
 /* Jamie S - Removing borders on homepage modules */
 
@@ -53,6 +64,8 @@ article#panel1 li,
 article#panel1 a {
   color: #000;
 }
+
+/* Jamie S - End Removing borders on homepage */
 
 /* Jamie S - Angles on module boxes */
 
@@ -71,7 +84,9 @@ article#panel1 a {
     transform: skew(0deg, 2deg);
 }
 
-/* Jamie S - Attribution text */
+/* Jamie S - End Angles on module boxes */
+
+/* Jamie S - Attribution text on Header pic */
 
 div#wp-custom-header:before {
     position: absolute;
@@ -99,8 +114,7 @@ div#wp-custom-header:before {
 	}
 }
 
-/* Faddah W. - End styling Front Page. */
-
+/* Jamie S - End Attribution text on Header pic */
 
 .header-cta > a {
 	background-color: #e74c3c;
@@ -138,7 +152,6 @@ div#wp-custom-header:before {
 .menu-main-container {
 	margin-right: 20px;
 }
-
 
 /* Jamie S - Positioning site branding box on homepage */
 
@@ -223,7 +236,9 @@ div#wp-custom-header:before {
 	    font-size: 16px;
 	}
 
-  /* Mobile Header */
+	/* Jamie S - End Positioning site branding box. */
+
+  /* Nick K. - Styling to fix Mobile Header */
   .home header#branding {
     padding: 0;
 
@@ -240,8 +255,7 @@ div#wp-custom-header:before {
   }
 }
 
-
-
+/* Nick K. - End Mobile Header styling */
 
 /* Jamie S - background styles */
 
@@ -249,6 +263,8 @@ div#wp-custom-header:before {
 	background-color: transparent;
 	background-image: url('https://2017.portland.wordcamp.org/files/2017/06/crosspattern.png');
 }
+
+/* Jamie S - End background styles. */
 
 /* Nick K - Light & Dark Link styling for button links (a.pushbutton) */
 
@@ -301,11 +317,6 @@ a.pushbutton:hover {
 	align-items: center;
 }
 
-/* Nick K adjustments - make instagram consistent size and remove google plus cutoff */
-#front-page-soc-media-icons img {
-  max-width: 44px;
-}
-
 img.alignnone.size-full.wp-image-452,
 img.alignnone.size-full.wp-image-453,
 img.alignnone.size-medium.wp-image-450 {
@@ -316,6 +327,13 @@ img.alignnone.size-full.wp-image-449 {
 }
 
 /* end Faddh W. Page Top soc. media icon row styling. */
+
+/* Nick K. - adjustment: make instagram consistent size on desktop*/
+#front-page-soc-media-icons img {
+  max-width: 44px;
+}
+
+/* Nick K. - End adjusment for Instagram social media icon.
 
 /* Doug Y. - Headings */
 
@@ -361,7 +379,6 @@ img.alignnone.size-full.wp-image-449 {
 
 /* Doug Y. - End of CSS fixes for header, accounts for admin bar & extra gray space below the header */
 
-
 /* Nick K - Sponsor List */
 .wcorg-sponsors h2 {
   text-transform: uppercase;
@@ -377,6 +394,7 @@ img.alignnone.size-full.wp-image-449 {
 	margin: 0 auto 20px;
 	display:block;
 }
+
 /* End Nick K Sponsor List */
 
 /* Nick K Social Media Feed Legibility w/Dark Background  */
@@ -408,7 +426,6 @@ img.alignnone.size-full.wp-image-449 {
 #content .tggr-author-profile img, .tggr-author-profile img {
   margin-right: 18px;
 }
-
 
 /* END Nick K Social Media */
 
