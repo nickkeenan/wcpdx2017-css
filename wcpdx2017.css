@@ -301,18 +301,18 @@ a.pushbutton:hover {
 	align-items: center;
 }
 
-/* Nick K adjustment - make instagram consistent size on desktop*/
+/* Nick K adjustments - make instagram consistent size and remove google plus cutoff */
 #front-page-soc-media-icons img {
   max-width: 44px;
 }
 
-
-
 img.alignnone.size-full.wp-image-452,
 img.alignnone.size-full.wp-image-453,
-img.alignnone.size-full.wp-image-449,
 img.alignnone.size-medium.wp-image-450 {
 	padding-right: 13%;
+}
+img.alignnone.size-full.wp-image-449 {
+  padding-right: 21%;
 }
 
 /* end Faddh W. Page Top soc. media icon row styling. */
@@ -379,7 +379,7 @@ img.alignnone.size-medium.wp-image-450 {
 }
 /* End Nick K Sponsor List */
 
-/* Nick K Social Media */
+/* Nick K Social Media Feed Legibility w/Dark Background  */
 .tggr-media-items {
   align-items: stretch;
 }
@@ -411,3 +411,18 @@ img.alignnone.size-medium.wp-image-450 {
 
 
 /* END Nick K Social Media */
+
+
+/* Nick K Mobile Theme Adjustments */
+
+body.mobile-theme .main-navigation a {
+  color: black !important;
+}
+
+body.mobile-theme .menu-search {
+  background: #211e1f;
+}
+
+body.mobile-theme .search-form #s {
+  background: #5a575a;
+}
