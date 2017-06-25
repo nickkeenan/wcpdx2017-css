@@ -470,10 +470,14 @@ body.mobile-theme .entry-content h2 {
 
 .wcorg-organizers {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
+}
+
+.wcorg-organizer {
+	width: 30%;
 }
 
 /* Faddah W. - END styling Organizers Page */
