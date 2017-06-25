@@ -478,10 +478,12 @@ body.mobile-theme .entry-content h2 {
 
 .wcorg-organizer {
 	width: 30%;
+	height: 20%;
+	overflow-y: scroll;
 	padding: 5%;
 	margin-bottom: 5%;
 	border: solid cornsilk;
-	border-radius: 25%;
+	border-radius: 20%;
 	-webkit-box-shadow: 3px 3px 5px 6px black;
   -moz-box-shadow:    3px 3px 5px 6px black;
   box-shadow:         3px 3px 5px 6px black;
