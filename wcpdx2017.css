@@ -395,8 +395,7 @@ img.alignnone.size-medium.wp-image-450 {
 
 /* End Nick K Sponsor List */
 
-/* Nick K Social Media Feed page styling */
-
+/* Nick K Social Media Feed Legibility w/Dark Background  */
 .tggr-media-items {
   align-items: stretch;
 }
@@ -427,3 +426,20 @@ img.alignnone.size-medium.wp-image-450 {
 }
 
 /* END Nick K Social Media */
+
+
+/* Nick K Mobile Theme Adjustments */
+
+body.mobile-theme .main-navigation a {
+  color: black !important;
+}
+
+body.mobile-theme .menu-search {
+  background: #211e1f;
+  box-shadow: none;
+}
+
+body.mobile-theme .search-form #s {
+  background: #5a575a;
+  border: 1px solid #211e1f;
+}
