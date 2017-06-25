@@ -468,7 +468,7 @@ body.mobile-theme .entry-content h2 {
 
 /* Faddah W. - Flex styling Organizers Page */
 
-.organizers-grid {
+.wcorg-organizers {
 	display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: wrap;
