@@ -482,6 +482,7 @@ body.mobile-theme .entry-content h2 {
 	overflow-y: scroll;
 	padding: 5%;
 	margin-bottom: 5%;
+	background-color: #545454;
 	border: solid cornsilk;
 	border-radius: 20%;
 	-webkit-box-shadow: 3px 3px 5px 6px black;
