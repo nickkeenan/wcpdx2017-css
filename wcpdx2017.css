@@ -465,3 +465,15 @@ body.mobile-theme .entry-content h2 {
 }
 
 /* END Nick K Mobile Theme Adjustments */
+
+/* Faddah W. - Flex styling Organizers Page */
+
+.organizers-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Faddah W. - END styling Organizers Page */
