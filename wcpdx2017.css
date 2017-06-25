@@ -470,10 +470,10 @@ body.mobile-theme .entry-content h2 {
 
 .organizers-grid {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 }
 
 /* Faddah W. - END styling Organizers Page */
