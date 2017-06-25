@@ -379,7 +379,7 @@ img.alignnone.size-medium.wp-image-837 {
 
 /* Doug Y. - End of CSS fixes for header, accounts for admin bar & extra gray space below the header */
 
-/* Nick K - Sponsor List */
+/* Nick K. - Sponsor List */
 .wcorg-sponsors h2 {
   text-transform: uppercase;
   font-size: 32px;
@@ -395,9 +395,10 @@ img.alignnone.size-medium.wp-image-837 {
 	display:block;
 }
 
-/* End Nick K Sponsor List */
+/* End Nick K. Sponsor List */
 
-/* Nick K Social Media Feed Legibility w/Dark Background  */
+/* Nick K. Social Media Feed Legibility w/Dark Background  */
+
 .tggr-media-items {
   align-items: stretch;
 }
@@ -427,10 +428,10 @@ img.alignnone.size-medium.wp-image-837 {
   margin-right: 18px;
 }
 
-/* END Nick K Social Media */
+/* END Nick K. Social Media */
 
 
-/* Nick K Mobile Theme Adjustments */
+/* Nick K. Mobile Theme Adjustments */
 
 body.mobile-theme .main-navigation a {
   color: black !important;
@@ -445,3 +446,17 @@ body.mobile-theme .search-form #s {
   background: #5a575a;
   border: 1px solid #211e1f;
 }
+
+/* END Nick K. Mobile Theme Adjustments */
+
+/* Faddah W. - Flex styling Organizers Page */
+
+.organizers-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Faddah W. - END styling Organizers Page */
