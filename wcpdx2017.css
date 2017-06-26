@@ -333,6 +333,13 @@ img.alignnone.size-medium.wp-image-837 {
   max-width: 44px;
 }
 
+@media screen and (max-width: 734px) {
+  #front-page-soc-media-icons {
+    width: 100%;
+    height: 70px;
+  }
+}
+
 body.mobile-theme #front-page-soc-media-icons {
   width: 100%;
   margin-bottom: 10px;
