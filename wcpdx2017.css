@@ -86,9 +86,11 @@ article#panel1 a {
 
 /* Jamie S - End Angles on module boxes */
 
-/* Jamie S - Attribution text on Header pic */
+/* Jamie S - Attribution text on Header pic
+Nick K - Disabled due to varied Mural Arts Rights Attributions
+*/
 
-div#wp-custom-header:before {
+/*div#wp-custom-header:before {
     position: absolute;
     top: 25px;
     right: 0;
@@ -100,7 +102,7 @@ div#wp-custom-header:before {
     letter-spacing: .03em;
     opacity: .7;
     z-index: 1;
-}
+}*/
 
 @media screen and (max-width: 564px) {
 	div#wp-custom-header:before {
