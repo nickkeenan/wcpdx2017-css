@@ -501,7 +501,14 @@ body.mobile-theme .entry-content h2 {
 
 /* Faddah W. - END styling Organizers Page */
 
-/* Nick K. - Camp Tix Customizations */
+/* Nick K. & Faddah W. - Camp Tix Customizations */
+
 .tix-error {
-  color: black;
+  color: orange;
 }
+
+.tix-info {
+	background-color: slategray;
+}
+
+/* Nick K. & Faddah W. - END Camp Tix Customizations */
