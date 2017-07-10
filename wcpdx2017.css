@@ -104,7 +104,7 @@ Nick K - Disabled due to varied Mural Arts Rights Attributions
     z-index: 1;
 }*/
 
-@media screen and (max-width: 564px) {
+/*@media screen and (max-width: 564px) {
 	div#wp-custom-header:before {
 	    bottom: 25px;
 	    top: initial;
@@ -114,7 +114,7 @@ Nick K - Disabled due to varied Mural Arts Rights Attributions
 	    opacity: 1;
 	    font-weight: 700;
 	}
-}
+}*/
 
 /* Jamie S - End Attribution text on Header pic */
 
@@ -500,3 +500,8 @@ body.mobile-theme .entry-content h2 {
 }
 
 /* Faddah W. - END styling Organizers Page */
+
+/* Nick K. - Camp Tix Customizations */
+.tix-error {
+  color: black;
+}
