@@ -155,6 +155,17 @@ Nick K - Disabled due to varied Mural Arts Rights Attributions
 	margin-right: 20px;
 }
 
+/* Jamie S - END main menu styling */
+
+/* Faddah W. - Styling of Tickets menu on main-menu */
+
+#menu-item-1092 {
+	background-color: red;
+	border-radius: 10% 10% 0px 0px;
+}
+
+/* Faddah W. - END Styling of Tickets menu */
+
 /* Jamie S - Positioning site branding box on homepage */
 
 .home .site-branding {
@@ -451,7 +462,6 @@ body.mobile-theme #front-page-soc-media-icons a:last-child{
 }
 
 /* END Nick K. Social Media */
-
 
 /* Nick K. Mobile Theme Adjustments */
 
