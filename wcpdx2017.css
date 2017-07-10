@@ -160,8 +160,9 @@ Nick K - Disabled due to varied Mural Arts Rights Attributions
 /* Faddah W. - Styling of Tickets menu on main-menu */
 
 #menu-item-1092 {
-	background-color: red;
+	background-color: #e74c3c;
 	border-radius: 10% 10% 0px 0px;
+	font-weight: 700;
 }
 
 /* Faddah W. - END Styling of Tickets menu */
