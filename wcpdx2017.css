@@ -523,3 +523,21 @@ body.mobile-theme .entry-content h2 {
 }
 
 /* Nick K. & Faddah W. - END Camp Tix Customizations */
+
+/* Nick K. - Sponsor Mobile Layout */
+
+  body.page-slug-sponsors.mobile-theme #page {
+    background-color: #222;
+    color: white;
+  }
+  body.page-slug-sponsors.mobile-theme #page .entry-content h3, body.page-slug-sponsors.mobile-theme #page .entry-content h2, body.page-slug-sponsors.mobile-theme,
+  body.page-slug-sponsors.mobile-theme #page .entry-title{
+    color: white;
+  }
+
+  body.page-slug-sponsors.mobile-theme #page a.pushbutton {
+    background: white;
+    color: #222;
+  }
+
+/* End Nick K. - Sponsor Layout */
