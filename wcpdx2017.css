@@ -487,27 +487,53 @@ body.mobile-theme .entry-content h2 {
 /* END Nick K Mobile Theme Adjustments */
 
 /* Faddah W. - Flex styling Organizers Page */
+/* Nick K. - Mods to organizer flex page to unify look and feel */
 
 .wcorg-organizers {
 	display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: stretch;
+  align-content: stretch;
 }
 
 .wcorg-organizer {
-	width: 30%;
-	height: 22rem;
-	overflow-y: scroll;
-	padding: 5%;
-	margin-bottom: 5%;
-	background-color: #545454;
-	border: solid cornsilk;
-	border-radius: 20%;
-	-webkit-box-shadow: 3px 3px 5px 6px black;
-  -moz-box-shadow:    3px 3px 5px 6px black;
-  box-shadow:         3px 3px 5px 6px black;
+  flex: 1;
+  flex-basis: 50%;
+	height: auto;
+	padding:  30px;
+	margin: 0 15px 15px 0;
+	background-color: #333;
+	border: 1px solid #1a1a1a;
+	border-radius: 30px 5px 30px 5px;
+}
+@media screen and (min-width: 768px) {
+	.wcorg-organizer {
+    flex-basis: 47%;
+  }
+  body.page-slug-organizers.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+body.mobile-theme .wcorg-organizer {
+  background: white;
+  padding: 30px;
+  border-width: 2px;
+}
+
+
+
+.wcorg-organizer .avatar {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+
+.wcorg-organizer .sharedaddy {
+  display: none;
 }
 
 /* Faddah W. - END styling Organizers Page */
