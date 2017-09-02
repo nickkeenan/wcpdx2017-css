@@ -524,8 +524,6 @@ body.mobile-theme .wcorg-organizer {
   border-width: 2px;
 }
 
-
-
 .wcorg-organizer .avatar {
   float: left;
   margin-right: 1.5em;
@@ -546,6 +544,11 @@ body.mobile-theme .wcorg-organizer {
 
 .tix-info {
 	background-color: slategray;
+}
+
+#tix-notices > div.tix-notice {
+	color: darkslategray;
+  font-weight: bold;
 }
 
 /* Nick K. & Faddah W. - END Camp Tix Customizations */
