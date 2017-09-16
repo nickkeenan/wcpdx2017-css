@@ -534,6 +534,14 @@ body.mobile-theme .wcorg-organizer {
   display: none;
 }
 
+div.sharedaddy h3.sd-title {
+  display: none !important;
+}
+
+.jp-sharing-input-touch .sd-content ul li {
+  padding-left: 0px !important;
+}
+
 /* Faddah W. - END styling Organizers Page */
 
 /* Nick K. & Faddah W. - Camp Tix Customizations */
@@ -581,9 +589,13 @@ body.mobile-theme .wcorg-organizer {
   margin-right: 10px;
 }
 
+#tix-attendees .tix-columns-3 li p {
+  margin: 0;
+}
+
 #tix-attendees .tix-field.tix-attendee-twitter {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /* End Nick K. - Attendee List*/
@@ -602,16 +614,22 @@ body.mobile-theme .wcpt-time {
 .colors-dark .entry-content a.wcpt-session-title {
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #666;
   box-shadow: none;
 }
 
 .colors-dark .entry-content .wcpt-session-speakers a {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #666;
   box-shadow: none;
+}
+
+.wcpt-session-speakers {
+  font-style: italic;
+  display: block;
 }
 
 .colors-dark .entry-content a.wcpt-session-title:hover, .colors-dark .entry-content .wcpt-session-speakers a:hover {
   box-shadow: none;
+  border-color: #CCC;
   color: white;
 }
