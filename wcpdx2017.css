@@ -598,3 +598,20 @@ body.mobile-theme .wcpt-schedule th, body.mobile-theme .wcpt-schedule td,
 body.mobile-theme .wcpt-time {
   padding-left: 10px;
 }
+
+.colors-dark .entry-content a.wcpt-session-title {
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #888;
+  box-shadow: none;
+}
+
+.colors-dark .entry-content .wcpt-session-speakers a {
+  border-bottom: 1px solid #888;
+  box-shadow: none;
+}
+
+.colors-dark .entry-content a.wcpt-session-title:hover, .colors-dark .entry-content .wcpt-session-speakers a:hover {
+  box-shadow: none;
+  color: white;
+}
