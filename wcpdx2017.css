@@ -546,11 +546,6 @@ body.mobile-theme .wcorg-organizer {
 	background-color: slategray;
 }
 
-#tix-notices > div.tix-notice {
-	color: darkslategray;
-  font-weight: bold;
-}
-
 /* Nick K. & Faddah W. - END Camp Tix Customizations */
 
 /* Nick K. - Sponsor Mobile Layout */
@@ -570,3 +565,36 @@ body.mobile-theme .wcorg-organizer {
   }
 
 /* End Nick K. - Sponsor Layout */
+
+/* Nick K. - Attendee List adjustments */
+
+#tix-attendees ul {
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tix-attendees .tix-columns-3 li {
+  flex-basis: 30%;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#tix-attendees .tix-field.tix-attendee-twitter {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* End Nick K. - Attendee List*/
+
+/* Jenny S - add padding left to schedule on mobile display
+*/
+
+body.mobile-theme .wcpt-schedule th, body.mobile-theme .wcpt-schedule td,
+{
+   padding-left: 5px !important;
+}
+body.mobile-theme .wcpt-time {
+  padding-left: 10px;
+}
